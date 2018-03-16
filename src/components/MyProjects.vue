@@ -64,6 +64,7 @@ a.button.is-primary.is-outlined
   background-position: center center 
   background-repeat: no-repeat
   background-size: cover 
+  height: 100% 
 
 .lab-title 
   color: #F7B617
