@@ -15,7 +15,7 @@
                   figure.image.is-48x48
                     img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
                 .media-content
-                  p.title.is-5.cardify-title Cardify
+                  p.title.is-3.cardify-title Cardify
               .content En este proyecto se hace uso del framework Materialize.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
@@ -68,6 +68,9 @@ a.button.is-primary.is-outlined
   top 0
   left 0
   width 100%
+
+p.title.is-3.cardify-title
+  line-height 2em
 
 .lab-title 
   color #F7B617
