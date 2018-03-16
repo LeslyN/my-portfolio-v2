@@ -6,7 +6,7 @@
         .column
           .card
             .card-image
-              figure.image
+              figure.image.is-128x128
                 img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
                 //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
             .card-content
