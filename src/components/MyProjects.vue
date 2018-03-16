@@ -6,7 +6,7 @@
         .column
           .card
             .card-image
-              figure.image.img-card.is-96x96
+              figure.image.img-card
                 img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
                 //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
             .card-content
@@ -15,7 +15,7 @@
                   figure.image.is-48x48
                     img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
                 .media-content
-                  p.title.is-4.cardify-title Cardify
+                  p.title.is-5.cardify-title Cardify
               .content En este proyecto se hace uso del framework Materialize.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio

@@ -14,7 +14,7 @@
           span {{ ` ${actualDate}` }}
           br
           span 
-            img.image-bulma.has-text-centered.is-48x48(src="../assets/made-with-bulma.png")
+            img.image-bulma.has-text-centered
 </template>
 
 <style lang="stylus">
@@ -31,6 +31,7 @@
     margin-top 20px
 
   .image-bulma 
+    background-image url ('../assets/made-with-bulma.png')
     padding 1em
     width 9em
     height 4em
