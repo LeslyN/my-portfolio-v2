@@ -60,10 +60,13 @@ a.button.is-primary.is-outlined
   margin: .5em 1em 0 0
 
 .img-card
-  background-image: url ('../assets/cardify-desktop.jpg')
+  background-image: url ('../assets/cardify-desktop.jpg')  
+  background-position: center center 
+  background-repeat: no-repeat
+  background-size: cover 
 
 .lab-title 
-  color:#F7B617
+  color: #F7B617
 
 .cardify-title 
   color: #EE6E73
