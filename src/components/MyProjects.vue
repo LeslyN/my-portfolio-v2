@@ -6,8 +6,9 @@
         .column
           .card
             .card-image
-              figure.image.is-4by3
+              figure.image
                 img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
+                //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
             .card-content
               .media
                 .media-left
