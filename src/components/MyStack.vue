@@ -1,7 +1,7 @@
 <template lang="pug">
   section#lesly-mystack.section
     .container
-      h1.title.is-1.has-text-centered Lenguajes aprendidos
+      h1.title.is-1.has-text-centered Skills
       .level
         .level-item
           .icon-container

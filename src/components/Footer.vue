@@ -14,13 +14,13 @@
           span {{ ` ${actualDate}` }}
           br
           span 
-            img.image-bulma.has-text-centered(src="../assets/made-with-bulma.png")
+            img.image-bulma.has-text-centered.is-48x48(src="../assets/made-with-bulma.png")
 </template>
 
 <style lang="stylus">
 .footer
   background black
-  color: white
+  color white
   .rounded-link
     padding 0.5em
     background white
@@ -31,9 +31,9 @@
     margin-top 20px
 
   .image-bulma 
-    padding: 1em
-    width: 9em
-    height: 4em
+    padding 1em
+    width 9em
+    height 4em
 </style>
 
 <script>

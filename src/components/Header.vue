@@ -24,7 +24,7 @@
 <style lang="stylus" scoped>
 .navbar-menu.is-active
   a.navbar-item
-    color: black
+    color black
 a.navbar-item
   color white
   &:hover

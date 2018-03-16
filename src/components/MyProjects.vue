@@ -6,9 +6,9 @@
         .column
           .card
             .card-image
-              figure.image.img-card
-                //- img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
-                img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
+              figure.image.img-card.is-96x96
+                img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
+                //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
             .card-content
               .media
                 .media-left
@@ -19,7 +19,7 @@
               .content En este proyecto se hace uso del framework Materialize.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
-                a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html/" target="_blank") Demo
+                a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html" target="_blank") Demo
         .column
           .card
             .card-image
@@ -60,18 +60,21 @@ a.button.is-primary.is-outlined
   margin: .5em 1em 0 0
 
 .img-card
-  background-image: url ('../assets/cardify-desktop.jpg')  
-  background-position: center center 
-  background-repeat: no-repeat
-  background-size: cover 
-  height: 100% 
+  background-image url ('../assets/cardify-desktop.jpg') center center 
+  background-repeat no-repeat
+  background-size cover 
+  width: 100% 
+  position absolute
+  top 0
+  left 0
+  width 100%
 
 .lab-title 
-  color: #F7B617
+  color #F7B617
 
 .cardify-title 
-  color: #EE6E73
+  color #EE6E73
 
 .twitter-title 
-  color: #2DAAE2
+  color #2DAAE2
 </style>
