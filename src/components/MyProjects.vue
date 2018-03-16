@@ -6,16 +6,16 @@
         .column
           .card
             .card-image
-              figure.image.is-128x128
-                img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
-                //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
+              figure.image.img-card
+                //- img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
+                img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
             .card-content
               .media
                 .media-left
                   figure.image.is-48x48
                     img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
                 .media-content
-                  p.title.is-4.cardify-title
+                  p.title.is-4.cardify-title Cardify
               .content En este proyecto se hace uso del framework Materialize.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
@@ -24,14 +24,14 @@
           .card
             .card-image
               figure.image.is-4by3
-                img(src="../assets/labCar-desktop.jpg" alt="Labcar desktop")
+                img(src="../assets/labcar-desktop.jpg" alt="Labcar desktop")
             .card-content
               .media
                 .media-left
                   figure.image.is-48x48
-                    img(src="../assets/labCar-mobile.jpg" alt="Labcar mobile")
+                    img(src="../assets/labcar-mobile.jpg" alt="Labcar mobile")
                 .media-content
-                  p.title.is-4.cardify-title
+                  p.title.is-4.cardify-title.lab-title Labcar
               .content En este proyecto se hace uso del framework Bootstrap.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/lab-car-boilerplate/" target="_blank") Repositorio
@@ -47,7 +47,7 @@
                   figure.image.is-48x48
                     img(src="../assets/twitter-mobile.jpg" alt="Twitter mobile")
                 .media-content
-                  p.title.is-4.cardify-title
+                  p.title.is-4.cardify-title.twitter-title Twitter
               .content En este proyecto se hace uso del framework Bootstrap.
                 br
                 a.button.is-primary.is-outlined(href="https://github.com/LeslyN/twitter/" target="_blank") Repositorio
@@ -58,6 +58,9 @@
 @import '../stylus/svariables'
 a.button.is-primary.is-outlined 
   margin: .5em 1em 0 0
+
+.img-card
+  background-image: url ('../assets/cardify-desktop.jpg')
 
 .lab-title 
   color:#F7B617
