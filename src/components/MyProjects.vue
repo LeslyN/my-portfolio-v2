@@ -58,5 +58,5 @@
       color #EE6E73
 
     .twitter-title 
-  color #2DAAE2
+      color #2DAAE2
 </style>
