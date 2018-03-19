@@ -31,7 +31,7 @@
     margin-top 20px
 
   .image-bulma 
-    background-image url ('../assets/made-with-bulma.png')
+    background-image url ('../assets/bulma.png')
     padding 1em
     width 9em
     height 4em

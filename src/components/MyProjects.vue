@@ -4,80 +4,59 @@
       h1.title.is-1.has-text-centered Proyectos
       .columns
         .column
-          .card
-            .card-image
-              figure.image.img-card
-                img(src="../assets/cardify-desktop.jpg" alt="Cardify desktop")
-                //- img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
-            .card-content
-              .media
-                .media-left
-                  figure.image.is-48x48
-                    img(src="../assets/cardify-mobile.jpg" alt="Cardify mobile")
-                .media-content
-                  p.title.is-3.cardify-title Cardify
-              .content En este proyecto se hace uso del framework Materialize.
-                br
-                a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
-                a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html" target="_blank") Demo
-        .column
-          .card
-            .card-image
-              figure.image.is-4by3
-                img(src="../assets/labcar-desktop.jpg" alt="Labcar desktop")
-            .card-content
-              .media
-                .media-left
-                  figure.image.is-48x48
-                    img(src="../assets/labcar-mobile.jpg" alt="Labcar mobile")
-                .media-content
-                  p.title.is-4.cardify-title.lab-title Labcar
-              .content En este proyecto se hace uso del framework Bootstrap.
-                br
-                a.button.is-primary.is-outlined(href="https://github.com/LeslyN/lab-car-boilerplate/" target="_blank") Repositorio
-                a.button.is-primary.is-outlined(href="https://leslyn.github.io/lab-car-boilerplate/" target="_blank") Demo
-        .column
-          .card
-            .card-image
-              figure.image.is-4by3
-                img(src="../assets/twitter-desktop.jpg" alt="Twitter desktop")
-            .card-content
-              .media
-                .media-left
-                  figure.image.is-48x48
-                    img(src="../assets/twitter-mobile.jpg" alt="Twitter mobile")
-                .media-content
-                  p.title.is-4.cardify-title.twitter-title Twitter
-              .content En este proyecto se hace uso del framework Bootstrap.
-                br
-                a.button.is-primary.is-outlined(href="https://github.com/LeslyN/twitter/" target="_blank") Repositorio
-                a.button.is-primary.is-outlined(href="https://leslyn.github.io/twitter/" target="_blank") Demo
+          .service.has-text-centered
+            figure
+              img.image-card(src="../assets/cardify.jpg")
+            .content
+              h3.cardify-title Cardify
+              p
+                | En este proyecto se hace uso del framework Materialize.
+              br
+              a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
+              a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html" target="_blank") Demo
+        
 </template>
 
 <style lang="stylus">
 @import '../stylus/svariables'
-a.button.is-primary.is-outlined 
-  margin: .5em 1em 0 0
 
-.img-card
-  background-image url ('../assets/cardify-desktop.jpg') center center 
-  background-repeat no-repeat
-  background-size cover 
-  width: 100% 
-  position absolute
-  top 0
-  left 0
-  width 100%
+.projects
+  background-color #F0F0F0
 
-p.title.is-3.cardify-title
-  line-height 2em
+  h1.title
+    margin-bottom 1.5em
 
-.lab-title 
-  color #F7B617
+  .service
+    width 100%
+    background white
+    border-radius 4px
+    padding 48px 20px
+    box-shadow 0px 0px 10px rgba(0, 0, 0, 0.2)
+    transition all 0.3s ease-in-out 0s
 
-.cardify-title 
-  color #EE6E73
+    &:hover
+      box-shadow 0px 0px 30px rgba(0, 0, 0, 0.2)
 
-.twitter-title 
+    h3
+      margin-top 1.5em
+      text-transform uppercase
+
+
+    a.button.is-primary.is-outlined 
+      margin .5em 1em 0 0
+
+    .image-card 
+      width 100% 
+      position absolute
+      top 0
+      left 0
+
+    .lab-title 
+      color #F7B617
+
+    .cardify-title 
+      color #EE6E73
+
+    .twitter-title 
   color #2DAAE2
 </style>

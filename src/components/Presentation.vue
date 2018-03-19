@@ -11,20 +11,21 @@
             span soy 
             vue-typer(:text=[
               'Front-end Developer.',
-              'Alegre.',
+              'Alegre y me gusta la música.',
             ])
         .is-hidden-desktop
           h3.title.is-3.text-change-mobile
             span.span-first-text soy
             vue-typer(:text=[
               'Front-end Developer.',
-              'Alegre.'])
+              'Alegre y me gusta la música.'])
 </template>
 
 <style lang="stylus">
 @import "../stylus/media-queries"
+
 .first-section
-  background url("../assets/image-header.jpg") center no-repeat
+  background url("../assets/header.jpg") center no-repeat
   background-size cover
   .overlay
     position absolute
@@ -37,6 +38,7 @@
   .text-change-mobile
     .span-first-text
       display block
+
   h1, h3, h2
     color white
   .is-name
@@ -49,6 +51,7 @@
 <script>
 import { VueTyper } from 'vue-typer';
 import Header from './Header';
+
 export default {
   name: 'Presentation',
   components: {
