@@ -5,15 +5,58 @@
       .columns
         .column
           .service.has-text-centered
-            figure
-              img.image-card(src="../assets/cardify.jpg")
+            img.image-card(src="../assets/cardify.png")
             .content
-              h3.cardify-title Cardify
+              h3.cardify-title.has-text-danger Cardify
               p
                 | En este proyecto se hace uso del framework Materialize.
-              br
-              a.button.is-primary.is-outlined(href="https://github.com/LeslyN/cardify/" target="_blank") Repositorio
-              a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html" target="_blank") Demo
+              .buttons.has-addons.is-centered
+                .control
+                  a.button.is-primary.is-outlined.is-rounded(href="https://github.com/LeslyN/cardify/" target="_blank") 
+                    span.icon
+                      i.fab.fa-github
+                    span Código
+                .control
+                  a.button.is-primary.is-outlined(href="https://leslyn.github.io/cardify/public/index.html" target="_blank")
+                    span.icon
+                      i.fas.fa-eye
+                    span Demo
+        .column
+          .service.has-text-centered
+            img.image-card(src="../assets/labcar.png")
+            .content
+              h3.lab-title.has-text-warning LabCar
+              p
+                | En este proyecto se hace uso del framework Bootstrap.
+              .buttons.has-addons.is-centered
+                .control
+                  a.button.is-primary.is-outlined(href="https://github.com/LeslyN/lab-car-boilerplate" target="_blank")
+                    span.icon
+                      i.fab.fa-github
+                    span Código
+                .control
+                  a.button.is-primary.is-outlined(href="https://leslyn.github.io/lab-car-boilerplate/" target="_blank")
+                    span.icon
+                      i.fas.fa-eye
+                    span Demo
+        .column
+          .service.has-text-centered
+            img.image-card(src="../assets/twitter.png")
+            .content
+              h3.twitter-title.has-text-info Twitter
+              p
+                | En este proyecto se hace uso del framework Bootstrap.
+              .buttons.has-addons.is-centered
+                .control
+                  a.button.is-primary.is-outlined(href="https://github.com/LeslyN/twitter" target="_blank")
+                    span.icon
+                      i.fab.fa-github
+                    span C&oacute;digo
+                .control
+                  a.button.is-primary.is-outlined(href="https://leslyn.github.io/twitter/" target="_blank")
+                    span.icon
+                      i.fas.fa-eye
+                    span Demo
         
 </template>
 
@@ -47,16 +90,8 @@
 
     .image-card 
       width 100% 
-      position absolute
+      height auto 
       top 0
       left 0
 
-    .lab-title 
-      color #F7B617
-
-    .cardify-title 
-      color #EE6E73
-
-    .twitter-title 
-      color #2DAAE2
 </style>

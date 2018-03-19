@@ -4,7 +4,6 @@
   "description": "Mi portafolio",
   "author": "LeslyN <lnombertoc@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/LeslyN/my-portfolio-v2",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -12,8 +11,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "bulma": "^0.6.2",

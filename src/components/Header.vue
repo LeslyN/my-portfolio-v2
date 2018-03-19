@@ -1,6 +1,8 @@
 <template lang="pug">
   nav.navbar.is-fixed-top(:class="{ 'is-scrolled': scrolled }")
     .navbar-brand
+      a.navbar-item(href="/")
+        img.logo(src="../assets/logoL.png")
       .navbar-burger.burger(@click="menuIsActive = !menuIsActive")
         span
         span
@@ -9,8 +11,8 @@
       .navbar-start
         a.navbar-item(href="#" v-scroll-to="'#lesly-presentation'") Sobre mí
         a.navbar-item(href="#" v-scroll-to="'#lesly-aboutme'") Acerca de mí
-        a.navbar-item(href="#" v-scroll-to="'#lesly-mystack'") Lenguajes aprendidos
-        a.navbar-item(href="#" v-scroll-to="'#lesly-myprojects'") Mis proyectos
+        a.navbar-item(href="#" v-scroll-to="'#lesly-mystack'") Skills
+        a.navbar-item(href="#" v-scroll-to="'#lesly-projects'") Mis proyectos
       .navbar-end
         .navbar-item
           .field.is-grouped
@@ -34,6 +36,11 @@ a.navbar-item
   background white
   a.navbar-item
     color black
+.logo 
+  width 30% 
+  max-height 100% 
+  top 0
+  left 0
 </style>
 
 <script>

@@ -14,7 +14,9 @@
           span {{ ` ${actualDate}` }}
           br
           span 
-            img.image-bulma.has-text-centered
+            a(href="https://bulma.io/made-with-bulma/" target="blank")
+              img.image-bulma(src="../assets/bulma.png")
+            
 </template>
 
 <style lang="stylus">
@@ -32,9 +34,11 @@
 
   .image-bulma 
     background-image url ('../assets/bulma.png')
+    left 0
     padding 1em
-    width 9em
     height 4em
+    top 0
+    width 9em
 </style>
 
 <script>

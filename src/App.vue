@@ -25,6 +25,7 @@ $family-primary: 'Quicksand', sans-serif;
   font-weight 700
   line-height 1
   height auto
+  
 .vue-typer
   .custom
     &.caret
