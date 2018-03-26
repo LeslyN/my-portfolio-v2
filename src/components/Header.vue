@@ -32,10 +32,12 @@ a.navbar-item
   &:hover
     background-color transparent
     color white
+
 .is-scrolled
   background white
   a.navbar-item
     color black
+
 .logo 
   width 30% 
   max-height 100% 
@@ -58,10 +60,10 @@ export default {
     }
   },
   created () {
-    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener('scroll', this.handleScroll);
   },
   destroyed () {
-    window.removeEventListener('scroll', this.handleScroll)
-  }
-}
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+};
 </script>

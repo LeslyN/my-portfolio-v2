@@ -14,7 +14,7 @@
               'Alegre y me gusta la música.',
             ])
         .is-hidden-desktop
-          h3.title.is-3.text-change-mobile
+          h3.title.is-4.text-change-mobile
             span.span-first-text soy
             vue-typer(:text=[
               'Front-end Developer.',
@@ -27,6 +27,7 @@
 .first-section
   background url("../assets/header.jpg") center no-repeat
   background-size cover
+
   .overlay
     position absolute
     top 0
@@ -35,17 +36,19 @@
     width 100%
     background-color #000000
     opacity 0.4
+
   .text-change-mobile
     .span-first-text
       display block
 
   h1, h3, h2
     color white
+
   .is-name
     font-size 80px
     letter-spacing 10px
     +mobile()
-      font-size 60px
+      font-size 40px
 </style>
 
 <script>
