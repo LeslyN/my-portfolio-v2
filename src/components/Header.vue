@@ -17,7 +17,7 @@
         .navbar-item
           .field.is-grouped
             p.control
-              a.button.is-primary(href="https://www.dropbox.com/s/ezonakewqd8wf9s/CV_Nomberto-Coronado-2018.pdf?dl=0" target="_blank", :class="{ 'is-inverted is-outlined': !scrolled && !menuIsActive }")
+              a.button.is-primary(href="https://www.dropbox.com/s/4sqnz5c4pszznzl/CV_Nomberto-Coronado-2018.pdf?dl=0" target="_blank", :class="{ 'is-inverted is-outlined': !scrolled && !menuIsActive }")
                 span.icon
                   i.fas.fa-download
                 span Descarga CV
