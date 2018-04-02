@@ -9,7 +9,7 @@
         span
     .navbar-menu(:class="{ 'is-active': menuIsActive }")
       .navbar-start
-        a.navbar-item(href="#" v-scroll-to="'#lesly-presentation'") Sobre mí
+        a.navbar-item(href="#" v-scroll-to="'#lesly-presentation'") Inicio
         a.navbar-item(href="#" v-scroll-to="'#lesly-aboutme'") Acerca de mí
         a.navbar-item(href="#" v-scroll-to="'#lesly-mystack'") Skills
         a.navbar-item(href="#" v-scroll-to="'#lesly-projects'") Mis proyectos

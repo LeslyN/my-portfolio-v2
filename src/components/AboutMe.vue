@@ -1,7 +1,7 @@
 <template lang="pug">
   section#lesly-aboutme.section
     .container
-      h1.title.is-1.has-text-centered Acerca de mi
+      h1.title.is-1.has-text-centered Acerca de m&iacute;
       p
         | Hola, mi nombre es Lesly Nomberto.
         | Soy Bachiller en Ingeniería en Computación e Informática con especialización en Front-end Developer
